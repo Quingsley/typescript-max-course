@@ -1,0 +1,23 @@
+{
+  "name": "share_place_project",
+  "version": "1.0.0",
+  "description": "Using third parties in ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "author": "Jerome",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/google.maps": "^3.38.0",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.19.0"
+  }
+}
